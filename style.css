@@ -1,0 +1,87 @@
+.linha1, .linha2, .linha3, .linha4, .linha5, .linha6, .linha7
+, .linha8, .linha9, .linha10, .linha11, .linha12, .linha13{
+    background-color: cornsilk;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+
+.linha1{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+    justify-content: start;
+    align-items: start;
+}
+
+.linha2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.linha3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+}
+
+.linha4{
+    display: flex;
+    align-items: center;
+}
+
+.linha5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha6{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha7{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha8{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha9{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha10{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha11{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha12{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linha13{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
